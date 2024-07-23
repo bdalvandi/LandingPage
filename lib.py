@@ -1,3 +1,8 @@
+'''
+The following are two basic functions to get a valuse from a nested 'dict' object
+and find the paths to a specific key in the object.
+'''
+
 # imports
 from typing import Union
 

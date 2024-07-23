@@ -1,3 +1,14 @@
+'''
+This is an interview test code made by LeadPages.
+In the following code 'get_texts()' is declared as a recursive function to traverse
+the JSON string and retrieve all "text" values and their corresponding "type"s.
+The result is generated as a JSON string where all of the text elements are listed 
+and categorized by their sections.
+
+Developer: Behdad Dalvandi, b.dalvandi@gmail.com
+'''
+
+
 # imports
 import json
 from lib import find_path_to_key, get_value_from_path
