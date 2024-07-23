@@ -1,4 +1,4 @@
-_This is an interview code test by RedBricks, LeadPages._  
+_This is an interview code test by RedBrick, LeadPages._  
 By: **Behdad Dalvandi**  
 
 # Introduction:
