@@ -1,14 +1,15 @@
-import json
+# imports
+from typing import Union
 
 # get the value from a nested dictionary given a path
-def get_value_from_path(data, path):
+def get_value_from_path(d:dict, path:list) ->  Union[str, int]:
     for key in path:
-        data = data[key]
-    return data
+        d = d[key]
+    return d
 
 
 # find the path to a specific key in a nested dictionary
-def find_path_to_key(d, target_key, path=None):
+def find_path_to_key(d:Union[dict, list], target_key:Union[str, int], path:list=None) -> list:
     if path is None:
         path = []
 

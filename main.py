@@ -18,7 +18,7 @@ sections = []  # final result
 section = str()  # section name for each 'box'
 texts = [] # list of texts in each section
 
-def get_texts(boxes):
+def get_texts(boxes:dict) -> None:
     global section, texts
 
     if not boxes:
