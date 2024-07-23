@@ -1,6 +1,7 @@
 # imports
 from typing import Union
 
+
 # get the value from a nested dictionary given a path
 def get_value_from_path(d:dict, path:list) ->  Union[str, int]:
     for key in path:
