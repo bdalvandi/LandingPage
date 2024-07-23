@@ -48,7 +48,6 @@ def get_texts(boxes:dict) -> None:
                 texts.append(text_dict)
         else:
             get_texts(box.get('boxes'))
-        
     return
 
 # main program
